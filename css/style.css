@@ -1,0 +1,157 @@
+
+body {
+    font-family: aileron, sans-serif;
+    color: #171717;
+    margin: 0;
+}
+
+p {
+    font-family: open-sans, sans-serif;
+    font-size: 20px;
+}
+
+.nav {
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 400px;
+    display: inline-block;
+}
+
+.topNavLinks {
+    margin-right: 50px;
+    float: right;
+    list-style-type: none;
+}
+
+.inline_block {
+    margin: 20px;
+    padding-bottom: 5px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    display: inline-block;
+    position: relative;
+    color: #171717;
+}
+
+.inline_block:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #171717;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease;
+}
+
+.inline_block:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.inline_block a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #171717;
+}
+
+.hero {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+h1 {
+    font-size: 78px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 58px;
+}
+
+.work {
+    margin-top: 100px;
+}
+
+.portfolioImage {
+    margin: 0;
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.portfolioImage:hover {
+    opacity: 0.5;
+}
+
+
+.portfolioImage a {
+    display: inline-block;
+}
+
+.about {
+    /* border: 1px solid red; */
+    padding: 75px 175px 75px 175px;
+    height: 520px;
+}
+
+
+.profile {
+    float: left;
+    width: 520px;
+    height: 520px;
+    margin-right: 50px;
+}
+
+.aboutText {
+    /* border: 1px solid red; */
+    padding: 25px;
+}
+
+.aboutHeader {
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.aboutParagraph {
+    margin-top: 10px;
+}
+
+.resume {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #171717;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    padding: 50px;
+}
+
+footer ul {
+    padding-left: 0px;
+    /* border: 1px solid red; */
+    list-style-type: none;
+}
+
+.footerIcon {
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+}

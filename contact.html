@@ -4,6 +4,7 @@
 <head>
     <title>Jeffrey De Leon | Multidisciplinary Designer</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/contactstyle.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/bfp6urs.css">
     <link rel="stylesheet" href="https://use.typekit.net/bfp6urs.css">
 </head>
@@ -18,21 +19,23 @@
         </ul>
     </header>
 
-    <section class="hero">
-        <h1>Hi there, I'm Jeffrey!</h1>
-        <p class="description">I'm a multidisciplinary designer from Thornhill, Ontario, Canada. Check out my work
-            below!</p>
-    </section>
+    <section class="contactSection">
+        <h2>Contact</h2>
+        <p>Message me for opportunities or say hi! I'll get back to you as soon as possible.</p>
 
-    <section class="work">
-        <div class="portfolioImage">
-            <a href="#"><img src="images/tripper-hero.png" alt="Tripper Travel App Concept"></a>
-        </div>
-        <div class="portfolioImage">
-            <a href="#"><img src="images/spectrum-works-hero.png" alt="Spectrum Works Website Redesign"></a>
-        </div>
-        <div class="portfolioImage">
-            <a href="#"><img src="images/CRA-hero.png" alt="Canada Revenue Agency Redesign"></a>
+        <div class="formSection">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="firstname" placeholder="Your name">
+            
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Your email">
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="subject" placeholder="Type your message" style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
         </div>
     </section>
 
